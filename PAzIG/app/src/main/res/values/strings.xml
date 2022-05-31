@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PAzIG</string>
+    //main
+    <string name="signin">Sign in</string>
+    <string name="signup">Sign up</string>
+    <string name="mail">Email Address</string>
+    <string name="password">Password</string>
+    <string name="logo">logo</string>
+    //sign_up
+    <string name="user">User name</string>
+    //patient data
+    <string name="mydata">My data</string>
+    <string name="appointments">Appointments</string>
+    //my data
+    <string name="hello">hello</string>
+    <string name="user_name">Enter name</string>
+    <string name="user_lastname">Enter last name</string>
+    <string name="user_age">Enter age</string>
+    <string name="save">SAVE DATA</string>
+    <string name="previous">PREVIOUS PAGE</string>
+    <string name="back">GO BACK</string>
+    //appointments
+    <string name="newapp">NEW APPOINTMENT</string>
+    <string name="app">APPOINTMENTS</string>
+    <string name="logout">LOG OUT</string>
+    //new appointment
+    <string name="appid">Appointment ID</string>
+    <string name="appdate">Date</string>
+    <string name="appdescription">Description</string>
+    <string name="humor">Humor (enter on a scale of 1-10)</string>
+    <string name="medications">Prescribed medications</string>
+    //appointments
+    <string name="appointmentid">Enter appointment id</string>
+    <string name="showinfo">SHOW INFO</string>
+    //doctor
+    <string name="appointmentuser">Enter user email</string>
+    <string name="showinfouser">SHOW INFO</string>
+</resources>

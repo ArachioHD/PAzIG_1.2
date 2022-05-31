@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "65105166888",
+    "project_id": "pazig-mp",
+    "storage_bucket": "pazig-mp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65105166888:android:33594c5f362dcdca51ab1d",
+        "android_client_info": {
+          "package_name": "com.example.pazig"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65105166888-4n2a1iohtss69qtp4arbeop21dedf72m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbMoKsLkkAHV2sj8Lz6ti1VIRbMGrm6-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65105166888-4n2a1iohtss69qtp4arbeop21dedf72m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

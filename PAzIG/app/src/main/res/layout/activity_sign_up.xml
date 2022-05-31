@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|center_horizontal|fill_vertical"
+    android:background="@drawable/tlo"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_marginTop="64dp"
+        android:layout_width="156dp"
+        android:layout_height="157dp"
+        android:layout_marginBottom="0dp"
+        tools:ignore="ImageContrastCheck"
+        android:src="@drawable/l"
+        android:contentDescription="@string/logo" />
+
+    <EditText
+        android:id="@+id/mail2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="0dp"
+        android:autofillHints="emailAddress"
+        android:backgroundTint="#141A3C"
+        android:ems="10"
+        android:hint="@string/mail"
+        android:inputType="textEmailAddress"
+        android:fontFamily="serif"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="0dp"
+        android:autofillHints="password"
+        android:backgroundTint="#141A3C"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:fontFamily="serif"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/password3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="0dp"
+        android:autofillHints="password"
+        android:backgroundTint="#141A3C"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:fontFamily="serif"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/signup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#141A3C"
+        android:padding="5dp"
+        android:text="@string/signup"
+        android:fontFamily="serif"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/backSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#141A3C"
+        android:padding="5dp"
+        android:text="@string/back"
+        android:fontFamily="serif"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
